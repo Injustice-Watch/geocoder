@@ -1,6 +1,6 @@
-var json2 = d3.csv('input/schools.csv',function(json2){
+var data = d3.csv('input/schools.csv',function(data){
 
-		var test = json2.slice(0,10);
+		var test = data.slice(0,10);
 		//test with first 10 data points to make sure it's working
 		test.forEach(function(d, i){
 			
